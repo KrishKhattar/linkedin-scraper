@@ -24,5 +24,5 @@ chrome.action.onClicked.addListener((tab) => {
 
 // This function is executed in the context of the content script
 function triggerContentScript() {
-  getNames();
+  getInformation();
 }
