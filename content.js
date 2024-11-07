@@ -1,5 +1,7 @@
 console.log("Content script loaded on LinkedIn");
 
-let names = getTextInsideSpan();
+function getNames() {
+  let names = getTextInsideSpan();
 
-console.log(names);
+  console.log(names);
+}

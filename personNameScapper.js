@@ -7,7 +7,8 @@ function getTextInsideSpan() {
 
   const resultArray = Array.from(filteredSpans).map(
     (span) => span.querySelector('span[aria-hidden="true"]').innerText
-  );
+  ).filter(text => text !== '#'); // Filter out '#' tags
+
   if (resultArray.length !== 0) {
     return resultArray;
   } else {
