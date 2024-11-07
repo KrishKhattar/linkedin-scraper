@@ -14,7 +14,12 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["personNameScapper.js", "linkedinLinks.js", "content.js"]
+      "js": [
+        "personNameScapper.js",
+        "linkedinLinks.js",
+        "dataPair.js",
+        "content.js"
+      ]
     }
   ]
 }
